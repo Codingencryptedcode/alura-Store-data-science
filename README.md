@@ -16,6 +16,9 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 - **Categorización y conteo de productos vendidos**  
   Agrupación de productos por tipo y conteo usando listas y diccionarios nativos.
 
+- **Cálculo de valoración promedio por tienda**  
+  Promedio simple de las calificaciones otorgadas por los clientes.
+
 ---
 
 ## Estructura del código:
@@ -27,7 +30,7 @@ El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de
 
 - **Funciones definidas**:
   - `ventas_por_categoria(tienda)`: agrupa y cuenta productos por categoría.
-  - Lógica con `for` y `print` para calcular la facturación.
+  - Lógica con `for` y `print` para calcular calificaciones y facturación.
 
 ---
 

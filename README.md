@@ -13,6 +13,9 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 - **Cálculo de ingresos totales por tienda**  
   Se suman todos los precios de venta para obtener la facturación de cada tienda.
 
+- **Categorización y conteo de productos vendidos**  
+  Agrupación de productos por tipo y conteo usando listas y diccionarios nativos.
+
 ---
 
 ## Estructura del código:
@@ -21,6 +24,10 @@ El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de
 
 - **Variables y estructuras principales**:  
   Se utilizan listas, diccionarios y estructuras de control como `for`, `if`, `zip`, `enumerate`, etc.
+
+- **Funciones definidas**:
+  - `ventas_por_categoria(tienda)`: agrupa y cuenta productos por categoría.
+  - Lógica con `for` y `print` para calcular la facturación.
 
 ---
 

@@ -22,6 +22,9 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 - **Detección de productos más y menos vendidos**  
   Se determina cuál categoría de productos se vendió más y cuál menos por tienda.
 
+- **Cálculo del costo promedio de envío por tienda**  
+  Promedio de los valores de la columna "Costo de envío".
+
 ---
 
 ## Estructura del código:
@@ -34,7 +37,7 @@ El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de
 - **Funciones definidas**:
   - `ventas_por_categoria(tienda)`: agrupa y cuenta productos por categoría.
   - `Productos_mas_y_menos_vendidos(tienda)`: determina los productos por máximo y mínimo volumen de ventas.
-  - Lógica con `for` y `print` para calcular calificaciones y facturación.
+  - Lógica con `for` y `print` para calcular y mostrar el costo promedio de envíos, promedio de calificaciones y total de facturación por tienda.
 
 ---
 

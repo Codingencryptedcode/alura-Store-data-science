@@ -6,5 +6,34 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 
 ## Estado del proyecto: En Desarrollo.
 
+---
 
+## Funcionalidades implementadas:
 
+- **Cálculo de ingresos totales por tienda**  
+  Se suman todos los precios de venta para obtener la facturación de cada tienda.
+
+---
+
+## Estructura del código:
+
+El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de la siguiente manera:
+
+- **Variables y estructuras principales**:  
+  Se utilizan listas, diccionarios y estructuras de control como `for`, `if`, `zip`, `enumerate`, etc.
+
+---
+
+## Cómo ejecutar el proyecto:
+
+1. Abre el archivo del proyecto en [Google Colab](https://colab.research.google.com/).
+2. Ejecuta las celdas en orden para calcular las métricas de cada tienda.
+3. Observa los gráficos generados que comparan rendimiento, calificaciones y logística.
+4. Lee el informe final que recomienda qué tienda vender.
+
+---
+
+## Requisitos:
+
+- Python 3.x (Google Colab)
+- Biblioteca `matplotlib` para gráficos

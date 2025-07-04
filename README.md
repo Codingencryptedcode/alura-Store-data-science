@@ -4,7 +4,7 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 
 ---
 
-## Estado del proyecto: En Desarrollo.
+## Estado del proyecto: Finalizado.
 
 ---
 
@@ -28,6 +28,9 @@ Este proyecto es una implementación de conceptos nativos de Python para el aná
 - **Visualización de datos con Matplotlib**  
   Se generan gráficos de barra, línea y pastel para ilustrar los hallazgos.
 
+- **Recomendación final basada en datos**  
+  Se genera un informe en lenguaje natural recomendando la venta de la tienda menos eficiente.
+
 ---
 
 ## Estructura del código:
@@ -45,6 +48,9 @@ El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de
 - **Visualizaciones**:
   - `matplotlib.pyplot` se usa para representar los ingresos, calificaciones y costos de envío.
 
+- **Informe final**:
+  - Redacción en Markdown explicando la recomendación basada en los resultados.
+
 ---
 
 ## Cómo ejecutar el proyecto:
@@ -60,3 +66,9 @@ El código se encuentra en un archivo `.ipynb` de Google Colab, y se organiza de
 
 - Python 3.x (Google Colab)
 - Biblioteca `matplotlib` para gráficos
+
+---
+
+## Resultado:
+
+Tras el análisis completo, se concluye que **la Tienda 4** es la menos eficiente, ya que tiene el menor ingreso, ventas bajas en categorías clave y una calificación promedio ligeramente inferior, aunque con un costo de envío más bajo. Por lo tanto, se recomienda vender esta tienda.
